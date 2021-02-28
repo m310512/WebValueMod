@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background: #d4d4d4;
+    font-family: Helvetica;
+}
+
+.contenedor{
+    width: 70%;
+    margin: 8% auto;
+}
+
+ul.tabs{
+    width: 100%;
+    background: rgb(14, 19, 19);
+    list-style: none;
+    display: flex;
+}
+
+ul.tabs li{
+    width: 20%;
+}
+
+ul.tabs li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+
+    display: block;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.tab-text{
+    margin-left: 8px;
+}
+
+.active{
+    background: blue;
+}
+
+.secciones{
+    width: 100%;
+    background: whitesmoke;
+}
+
+.secciones p{
+    text-align: justify;
+}
+
+article{
+    padding: 4%;
+}
